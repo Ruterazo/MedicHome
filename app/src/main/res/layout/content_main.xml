@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="209dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/colorPrimary"
+        android:onClick="clickDiag"
+        android:text="@string/diagnostico"
+        android:textColor="@color/colorContrast" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="209dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/colorPrimary"
+        android:onClick="clickEmer"
+        android:text="@string/emergencia"
+        android:textColor="@color/colorContrast" />
+
+    <ImageButton
+        android:id="@+id/Botonwifi"
+        android:layout_width="92dp"
+        android:layout_height="92dp"
+        android:layout_margin="10dp"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        android:onClick="clickWifi"
+        app:srcCompat="@color/colorContrast" />
+
+</LinearLayout>

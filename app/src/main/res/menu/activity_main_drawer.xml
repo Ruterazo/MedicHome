@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_resultados"
+            android:icon="@drawable/ic_folder_black_24dp"
+            android:title="Resultados análisis" />
+        <item
+            android:id="@+id/nav_recom"
+            android:icon="@drawable/ic_live_help_black_24dp"
+            android:title="Recomendaciones médicas" />
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@drawable/ic_account_box_black_24dp"
+            android:title="Información personal" />
+        <item
+            android:id="@+id/nav_manageaccounts"
+            android:icon="@drawable/ic_group_black_24dp"
+            android:title="Configuración de cuentas" />
+    </group>
+
+    <item android:title="Comunicaciones">
+        <menu>
+            <item
+                android:id="@+id/nav_notifications"
+                android:icon="@drawable/ic_notifications_active_black_24dp"
+                android:title="Notificaciones" />
+            <item
+                android:id="@+id/nav_phones"
+                android:icon="@drawable/ic_phone_black_24dp"
+                android:title="Teléfonos de atención" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">MedicHome</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Rubén</string>
+    <string name="nav_header_subtitle">rubenruter@usal.es</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="diagnostico">DIAGNOSTICO</string>
+    <string name="emergencia">EMERGENCIA</string>
+    <string name="labCon">Conectar MedicTable</string>
+    <string name="labEmer">Emergencia</string>
+    <string name="labdiad">Diagnostico</string>
+    <string name="preconex">Pulsa para conectar</string>
+    <string name="sinconex">Pulsa el botón de conexión en tu mesa para realizar la conexión.</string>
+    <string name="conconex">Conectado.</string>
+    <string name="parada_cardiaca">Parada Cardiaca</string>
+    <string name="estable">Estable</string>
+    <string name="preguntaAmbu">¿Seguro que quiere una ambulancia?</string>
+    <string name="saludable">Saludable</string>
+    <string name="infeccion">Infección detectada</string>
+    <string name="receta">Se te han recetado antibioticos, descargue su receta y siga el tratamiento incluido en ella</string>
+    <string name="descarga">Descargar Receta</string>
+    <string name="nota">Se han actualizado tus análisis</string>
+    <string name="nota2">Se han actualizado tus análisis</string>
+    <string name="apendicitis_detectada">Apendicitis detectada</string>
+    <string name="nota3">Se han actualizado tus análisis</string>
+    <string name="aviso">Puede realizar la operación sin riesgo, para ello pulse el siguiente botón</string>
+    <string name="apendicitis_operandose">Apendicitis operandose</string>
+    <string name="por_favor_espere">Por favor, espere...</string>
+    <string name="apendicitis_operada">Apendicitis operada</string>
+    <string name="recomenda">Guarde reposo y si nota anomalías realize un nuevo diagnóstico o acuda a su médico</string>
+</resources>
